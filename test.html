@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" /> 
+	
+	<!-- Demo Styles -->
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			outline: 0;
+		}
+		
+		html, body{
+			height: 100%;
+			background: #F2F2F2;
+		}
+
+		body, a{
+			font: normal 16px Helvetica, Verdana, Geneva, sans-serif;
+			color: #3F3F3F;		
+		}
+		
+		.container{
+			min-height: 100%;
+			height: auto !important;
+			height: 100%;
+			margin: 0 auto -30px;
+		}
+		
+		.container:after{
+			content: '';
+			display: block;
+			height: 30px;
+			clear: both;
+		}
+		
+		.footer{
+			height: 12px;
+			padding: 8px 0;
+			background: #FFF;
+			border-top: 1px solid #51C1F1;
+			font-size: 12px;
+			text-align: center;
+		}
+	</style>
+	
+	<link rel="stylesheet" href="css/navigataur.css" />
+	<title>Navigataur CSS</title>
+</head>
+<body>
+	<div class="container">
+		<div class="header clearfix">
+			<h1>navigataur.css</h1>
+			
+			<div class="nav">
+				<input type="checkbox" id="toggle" />
+				<label for="toggle" class="toggle" onclick></label>
+				<ul class="menu">
+					<li><a href="#">Google</a></li>
+					<li><a href="#">Facebook</a></li>		
+					<li><a href="#">Youtube</a></li>	
+					<li><a href="#">Twitter</a></li>	
+				</ul>
+			</div><!-- End of Navigation -->
+			
+		</div><!-- End of Header -->
+		
+	</div><!-- End of Container -->
+	
+	<div class="footer">
+		<p>&copy; 2012 Navigataur CSS Plugin | Created by Mike King</p>
+	</div>
+</body>
+</html>

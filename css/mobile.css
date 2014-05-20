@@ -1,0 +1,65 @@
+
+header {
+	height: 50px;
+	border-bottom: 1px solid rgba(101,61,31,0.55);
+}
+
+header .nav-bar {
+	float: left;
+	width: 20%;
+	line-height: 50px;
+}
+
+.nav-bar .menu-icon {
+	display: inline-block;
+	width: 40%;
+}
+
+header .heading {
+	font-family: HelveticaNeue;
+	font-size: 2em;
+	color: #512209;
+	height: 50px;
+	line-height: 38px;
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+	float: left;
+}
+
+header .app-icon {
+	width: 20%;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+}
+
+.app-icon .icon {
+	float: right;
+	margin-right: 10px;
+	width: 30%;
+}
+
+.nav-bar ul {
+	display: none;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.nav > li {
+	background: rgba(86,48,28,0.96);
+	border: 1px solid #979797;
+	-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+	box-shadow:0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.nav > li > a {
+	display: block;
+	text-decoration: none;
+	font-family: HelveticaNeue;
+	font-size: 1em;
+	color: #FFFFFF;
+	line-height: 38px;
+	text-align: center;
+}

@@ -1,0 +1,163 @@
+
+header {
+	height: 45px;
+	border-bottom: 1px solid rgba(101,61,31,0.55);
+	overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+header .nav-bar {
+	height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+header .heading {
+	font-family: HelveticaNeue;
+	font-size: 2em;
+	color: #512209;
+	line-height: 38px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	float: left;
+}
+
+header .app-icon {
+	width: 20%;
+	height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+
+.menu-icon {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.app-icon .icon {
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 30%;
+}
+
+.nav-bar-expanded ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.nav > li {
+	background: rgba(86,48,28,0.96);
+	border-bottom: 1px solid #979797;
+	-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+	box-shadow:0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.nav > li > a {
+	display: block;
+	text-decoration: none;
+	font-family: HelveticaNeue;
+	font-size: 1em;
+	color: #FFFFFF;
+	line-height: 38px;
+	text-align: center;
+}
+
+.nav-bar-expanded {
+	display: none;
+	height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 60%;
+    min-width: 40px;
+}
+
+.notification-bubble {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/Oval_41.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 20px;
+}
+
+.event-list ul {
+	list-style-type:none;
+	padding:0;
+}
+
+.event {
+	padding-left: 10px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	/* Rectangle 16: */
+	background: #FABC00;
+	border: 1px solid #653D1F;
+}
+
+.event-box-shadow {
+	-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50), inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50), inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+}
+
+.event .info {
+	display: inline-block;
+	width: 90%;
+}
+
+.event .link { 
+	width: 5%;
+	text-decoration: none;
+	float: right;
+	margin: 0px; 
+	display: block; 
+	height: 100%; 
+	vertical-align: middle;
+}
+
+.event .link a {
+	text-decoration: none;
+	height: 100%; 
+}
+
+.event .name {
+	font-family: HelveticaNeue;
+	font-size: 24px;
+	color: #512209;
+	line-height: 34px;
+}
+
+.event .time {
+	font-family: HelveticaNeue;
+	font-size: 20px;
+	color: #72472B;
+	line-height: 30px;
+}
+
+.event .place {
+	font-family: HelveticaNeue;
+	font-size: 20px;
+	color: #72472B;
+	line-height: 30px;
+}
+
+.event-details .details {
+	font-family: HelveticaNeue;
+	font-size: 34px;
+	color: #512209;
+	line-height: 37px;
+}
