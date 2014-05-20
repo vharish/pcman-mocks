@@ -35,27 +35,3 @@ img {
 	background-image: linear-gradient(-179deg, #FA3F00 0%, #FA3F00 100%);
 	border: 1px solid #979797;
 }
-
-.width100pc {
-	width: 100%;
-}
-
-.width50pc {
-	width: 50%;
-}
-
-.width75pc {
-	width: 75%;
-}
-
-.width25pc {
-	width: 25%;
-}
-
-.fl-left {
-	float: left;
-}
-
-.fl-right {
-	float: right;
-}
