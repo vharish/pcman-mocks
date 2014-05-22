@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(".menu-icon").click(toggleMenuView);
+    $(".menu").on('tap',toggleMenuView);
 });
 
 function toggleMenuView() {
