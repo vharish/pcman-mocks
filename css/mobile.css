@@ -92,6 +92,7 @@ header .app-icon {
 }
 
 .content {
+	padding-top: 40px;
 	margin-left: 3%;
 	margin-right: 3%;
 	margin-top: 20px;
@@ -120,21 +121,19 @@ header .app-icon {
 
 .info .name {
 	font-family: HelveticaNeue;
-	font-size: 24px;
+	font-size: 1.3em;
 	color: #512209;
 	line-height: 34px;
 }
 
 .info .time {
 	font-family: HelveticaNeue;
-	font-size: 20px;
 	color: #72472B;
 	line-height: 30px;
 }
 
 .info .place {
 	font-family: HelveticaNeue;
-	font-size: 20px;
 	color: #72472B;
 	line-height: 30px;
 }
