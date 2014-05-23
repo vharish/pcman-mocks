@@ -1,6 +1,13 @@
 
-body {
-	background-color : #FAB400;
+html, body {min-width: 100%; min-height: 100%;}
+h1,h2,h3,h4,h5,h6 {text-decoration: none; font-size: 1em; font-weight: normal;}
+
+html, body {
+	margin: 0;
+	background-color: #FA8C00;
+	overflow: hidden;
+	font-family: HelveticaNeue;
+	padding-bottom: 40px;
 }
 
 footer {
@@ -23,9 +30,9 @@ img {
 
 	/* Share Text Style */
 	font-family: HelveticaNeue-Light, Helvetica;
-	font-size: 34px;
+	font-size: 1.5em;
 	color: #FFFFFF;
-	line-height: 41px;
+	line-height: 40px;
 	letter-spacing: 2px;
 
 	/* Share_background: */
@@ -34,4 +41,35 @@ img {
 	background-image: -ms-linear-gradient(-89deg,#FA3F00 0%, #FA3F00 100%);
 	background-image: linear-gradient(-179deg, #FA3F00 0%, #FA3F00 100%);
 	border: 1px solid #979797;
+}
+
+.content {
+}
+
+.inactive {
+	display: none;
+}
+
+.question {
+	color: #fff;
+}
+
+.date {
+	font-family: HelveticaNeue;
+	color: #512209;
+	font-size: 0.8em;
+	height: 40px;
+	text-align: center;
+}
+
+.answer {
+	font-family: HelveticaNeue;
+	font-size: 1.2em;
+	color: #512209;
+}
+
+.question {
+	font-family: HelveticaNeue;
+	font-size: 1.2em;
+	color: #FFFFFF;
 }

@@ -2,7 +2,7 @@
 header {
 	position: absolute;
 	top: 0;
-	height: 45px;
+	height: 40px;
 	border-bottom: 1px solid rgba(101,61,31,0.55);
 	overflow: hidden;
     position: relative;
@@ -17,9 +17,9 @@ header .nav-bar {
 
 header .heading {
 	font-family: HelveticaNeue;
-	font-size: 2em;
+	font-size: 1.5em;
 	color: #512209;
-	line-height: 38px;
+	line-height: 40px;
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
@@ -36,8 +36,8 @@ header .app-icon {
 
 .menu {
 	display: inline-block;
-	width: 35px;
-	height: 35px;
+	width: 30px;
+	height: 30px;
 	margin-left: 10px;
 	margin-top: 10px;
 }
@@ -46,7 +46,7 @@ header .app-icon {
 	float: right;
 	margin-right: 10px;
 	margin-top: 10px;
-	width: 30%;
+	width: 33%;
 }
 
 .nav-bar-expanded ul {
@@ -102,7 +102,7 @@ header .app-icon {
 	padding:0;
 }
 
-.generic-box {
+.generic-box, .generic-box-shadow {
 	border-radius: 4px;
 	/* Rectangle 16: */
 	background: #FABC00;
@@ -110,36 +110,29 @@ header .app-icon {
 }
 
 .generic-box-shadow {
-	-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50), inset 0px 1px 3px 0px rgba(0,0,0,0.50);
-	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50), inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50), inset 0px 1px 2px 0px rgba(0,0,0,0.50);
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50), inset 0px 1px 2px 0px rgba(0,0,0,0.50);
 }
 
-.generic-box .info {
+.info {
 	display: inline-block;
 }
 
-.generic-box .link { 
-}
-
-.generic-box .link a {
-	text-decoration: none;
-}
-
-.generic-box .name {
+.info .name {
 	font-family: HelveticaNeue;
 	font-size: 24px;
 	color: #512209;
 	line-height: 34px;
 }
 
-.generic-box .time {
+.info .time {
 	font-family: HelveticaNeue;
 	font-size: 20px;
 	color: #72472B;
 	line-height: 30px;
 }
 
-.generic-box .place {
+.info .place {
 	font-family: HelveticaNeue;
 	font-size: 20px;
 	color: #72472B;
@@ -151,4 +144,20 @@ header .app-icon {
 	font-size: 23px;
 	color: #512209;
 	line-height: 25px;
+}
+
+.event-box {
+	min-height : 100px;
+}
+
+.event-box .info {
+	min-height : 100px;
+	float: left;
+}
+
+.event-box .link {
+	width: 9%;
+	float: right;
+	min-height: 100px;
+	line-height: 100px;
 }
