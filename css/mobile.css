@@ -1,5 +1,4 @@
 body {
-	padding-top: 40px;
 }
 
 header { 
@@ -11,7 +10,6 @@ header {
 }
 
 header .nav-bar {
-	height: 100%;
     position: absolute;
     left: 0;
 }
@@ -29,7 +27,6 @@ header .heading {
 
 header .app-icon {
 	width: 20%;
-	height: 100%;
     position: absolute;
     right: 0;
 }
@@ -159,4 +156,10 @@ header .app-icon {
 	float: right;
 	min-height: 100px;
 	line-height: 100px;
+}
+
+.event-box .link a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
 }
