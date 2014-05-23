@@ -1,11 +1,11 @@
 
 header {
-	position: absolute;
+	position: fixed; 
+	background-color: #FA8C00;
 	top: 0;
 	height: 40px;
 	border-bottom: 1px solid rgba(101,61,31,0.55);
 	overflow: hidden;
-    position: relative;
     width: 100%;
 }
 
