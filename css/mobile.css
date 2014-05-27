@@ -66,8 +66,8 @@ header .app-icon {
 	font-family: HelveticaNeue;
 	font-size: 1em;
 	color: #FFFFFF;
-	line-height: 38px;
-	text-align: center;
+	line-height: 40px;
+	margin-left: 60px;
 }
 
 .nav-bar-expanded {
@@ -76,17 +76,21 @@ header .app-icon {
     position: fixed;
     left: 0;
     top: 0;
-    width: 60%;
-    min-width: 40px;
+    width: 70%;
+	min-width: 150px;
+	max-width: 200px;
 }
 
 .notification-bubble {
 	display: inline-block;
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
+	margin-left: 10px;
 	background-image: url(../img/Oval_41.png);
 	background-size: cover;
     background-repeat: no-repeat;
+    font-size: 0.8em;
+    text-align: center;
 }
 
 .content {
@@ -162,4 +166,24 @@ header .app-icon {
 	display: inline-block;
 	width: 100%;
 	height: 100%;
+}
+
+.quotes .quote {
+	text-align: center;
+	color: #512209;
+	font: 1.3em HelveticaNeue;
+}
+
+.quotes .author {
+	text-align: center;
+	color: #fff;
+	font: 0.8em HelveticaNeue;
+}
+
+.quotes .quote-img{
+	height: 15px;
+}
+
+.quotes .quote-img img{
+	height: 15px;
 }
