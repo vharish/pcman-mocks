@@ -15,6 +15,12 @@ function setInactive(index,ele) {
 
 function setLinks() {
 
+    $(".about-details").on("tap",function(){
+        $.each($(".content>div"),setInactive);
+        $("header .heading").text("About PRESENCE Spirituality");
+        $("#about-details").removeClass("inactive");
+    })
+
     $(".event-details").on("tap",function(){
         $.each($(".content>div"),setInactive);
         $("header .heading").text("June 21-23, 2014");

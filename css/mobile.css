@@ -16,7 +16,7 @@ header .nav-bar {
 
 header .heading {
 	font-family: HelveticaNeue;
-	font-size: 1.5em;
+	font-size: 1.1em;
 	color: #512209;
 	line-height: 40px;
 	width: 100%;
@@ -139,6 +139,11 @@ header .app-icon {
 	line-height: 30px;
 }
 
+.info .desc {
+	font-family: HelveticaNeue;
+	color: #512209;
+}
+
 .event-details .details p {
 	font-family: HelveticaNeue;
 	font-size: 23px;
@@ -162,7 +167,23 @@ header .app-icon {
 	line-height: 100px;
 }
 
-.event-box .link a {
+.about-box {
+	min-height : 100px;
+}
+
+.about-box .info {
+	min-height : 100px;
+	float: left;
+}
+
+.about-box .link {
+	width: 9%;
+	float: right;
+	min-height: 100px;
+	line-height: 100px;
+}
+
+.generic-box .link a {
 	display: inline-block;
 	width: 100%;
 	height: 100%;
