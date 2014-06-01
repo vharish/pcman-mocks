@@ -212,3 +212,79 @@ header .app-icon {
 .quotes .quote-img img{
 	height: 15px;
 }
+
+#profile .heading {
+	font-family: HelveticaNeue;
+	font-size: 1em;
+	color: #FFF;
+	line-height: 25px;
+}
+
+#profile ul {
+	background: #FABC00;
+	border: 1px solid #653D1F;
+}
+
+#profile ul>li {
+	height: 32px;
+	/* Align */
+	padding-left: 10px;
+	/* Line: */
+	border-bottom : 1px solid rgba(101,61,31,0.55);
+	/* Text */
+	font-family: HelveticaNeue;
+	font-size: 0.9em;
+	color: #512F10;
+	line-height: 32px;
+}
+
+#contact ul>li {
+	/*Box style*/
+	background: #FABC00;
+	border: 1px solid #653D1F;
+	margin-top: 20px;
+	padding: 5px 0 5px 0;
+}
+
+#contact .country {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#contact .info {
+	height: 40px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+#contact .email {
+	display: block;
+	margin: 0 auto;
+	width: 89px;
+	background: url(../img/Mail_Button.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact .phone {
+	display: block;
+	margin: 0 auto;
+	width: 89px;
+	background: url(../img/Phone_Button.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact .email img {
+	display: block;
+	padding: 5px 0px 5px 0px;
+	height: 21px;
+	margin: 0 auto;
+}
+
+#contact .phone img {
+	display: block;
+	padding: 5px 0px 5px 0px;
+	height: 21px;
+	margin: 0 auto;
+}
